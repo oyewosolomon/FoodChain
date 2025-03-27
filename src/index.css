@@ -55,6 +55,15 @@
     @apply bg-background text-foreground;
   }
 
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700; /* This matches the wght@700 we loaded */
+  }
+
   
 @layer components {
   .container {

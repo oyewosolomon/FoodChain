@@ -5,6 +5,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],       // Default body font
+        heading: ['DM Sans', 'sans-serif'],  // For headings
+      },
       animation: {
         'fade-in': 'fadeIn 1s ease-in-out',
         'fade-in-up': 'fadeInUp 1s ease-in-out',

@@ -33,9 +33,9 @@ export default function Home() {
   return (
     <main>
       <HeroSection/>
+      <Features/>
       <AboutUs/>
       <SolutionsSection/>
-      <FeaturesSection/>
       <PricingSection/>
       <Contact/>
       <CaseStudies/>

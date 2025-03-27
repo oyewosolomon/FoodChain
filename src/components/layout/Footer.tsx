@@ -63,24 +63,6 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Contact Information */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a href="mailto:info@foodchainverify.com" className="flex items-center text-gray-400 hover:text-white">
-              <Mail className="w-5 h-5 mr-2" />
-              info@foodchainverify.com
-            </a>
-            <a href="tel:+18001234567" className="flex items-center text-gray-400 hover:text-white">
-              <Phone className="w-5 h-5 mr-2" />
-              +1 (800) 123-4567
-            </a>
-            <div className="flex items-center text-gray-400">
-              <MapPin className="w-5 h-5 mr-2" />
-              123 Food Safety Ave, Suite 456, Springfield, USA
-            </div>
-          </div>
-        </div>
-
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
