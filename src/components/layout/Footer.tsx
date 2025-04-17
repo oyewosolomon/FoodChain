@@ -5,7 +5,7 @@ import {
 
 const Footer = () => {
   const footerLinks = {
-    QuickLinks: ['About Us', 'Solutions', 'Features', 'Pricing', 'Resources', 'Contact'],
+    QuickLinks: ['About Us', 'Features', 'Pricing', 'Resources', 'Contact'],
     Legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy']
   };
 

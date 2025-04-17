@@ -22,7 +22,6 @@ const Navbar = () => {
   // Navigation items based on Quick Links
   const navItems = [
     { title: 'About Us', href: '#about' },
-    { title: 'Solutions', href: '#solutions' },
     { title: 'Features', href: '#features' },
     { title: 'Pricing', href: '#pricing' },
     { title: 'Resources', href: '#resources' },
